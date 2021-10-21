@@ -1,0 +1,27 @@
+nav {
+  float: left;
+  background-color: aqua 
+
+}
+header::after {   
+  content: normal;
+  display: table;
+  clear: both;
+
+}
+nav ul {
+  margin: 8px; 
+  padding: 0 px;
+  list-style: none; 
+  font-color: black
+}
+
+nav li {
+  display:inline-table
+}
+
+nav a { 
+  color: black
+  text-transform: uppercase
+  font-weight: 300px 
+}
