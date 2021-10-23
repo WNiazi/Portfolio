@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,11 +10,7 @@
 </head>
 <body>
   <header>
-    <div class="logo">
-      <img src="img/horizon.jpeg" alt="logo">
-    </div>
-
-      <nav>
+    <nav class="nav">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">About Me</a></li>
@@ -22,121 +18,123 @@
           <li><a href="#">Skills</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-      </nav>
+    </nav>
   </header>
-  <div>
-    <h1>Wajma Niazi</h1>
-      <div class= "image">
-       <img src="img/girl.png" alt="girl">
-      </div>
-      <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quo, distinctio harum dicta vel reprehenderit libero aliquid expedita vero. Nulla!</p>
-      </div>
-   <div>
-<hr>
+<section id="home">
+  <h1 class="headings">Wajma Niazi</h1> 
+  <h2>Web designer</h2>  
+  <button> Hire Me</button>
+</section>
 
-      <div class="container">
-        <h1>About Me</h1>
 <hr>
-        <h2>Background</h2>
-          <div>
-            <img src="img/medicine.png" alt="medicine">
-          </div>
-      <div>
-          <p>blah blah blah </p>
-          </div>
-        <h2>Hobbies</h2>
-          <div>
-            <img src="img/hike.jpg" alt="hike">
-          </div>
-          <div>
-            <img src="img/paint.jpg" alt="paint">
-          </div>
-          <div>
-            <p>blah blah blah</p>
-          </div>
-      </div>
+<section id="about me">
+    <h1>About Me</h1>
+<hr>
+  <section id="box">
+    <h2>Background</h2>
+      <section id="medicine">
+        <img src="img/medicine.png" alt="medicine">
+      </section>
+      <p class="words">I was certified at Epicodus and intern at Amazon creating amazing things. You can say that I am not <strong>computer-abled </strong> </p>
+    </section>
+  <section id="box">
+    <h2>Hobbies</h2>
+        <section id="hike">
+          <img src="img/hike.jpg" alt="hike">
+          <p class="words">There are many things I enjoy: </p>
+          <ol>
+            <li>hiking</li>
+            <li>biking</li>
+          </ol>
+        </section>
+  </section>
   <hr>
-
+  <h1>Projects</h1>
   <div class="container">
-    <div class="jumbotron">
-      <h1>Projects</h1>
-        <div class="card">
-          <div class="card-body">
-            <h2 class="card-title">HTML</h2>
-            <ul class="card-text">
-              <img src="img/computer.jpg" alt="computer screen">
-              <ul>
+    <div class= "row">
+      <div class="col-4 mb 4 pd 4">
+        <div class="card" style="width: 18rem;">
+          <img src="img/computer.jpg" class="card-img-top p-1" alt="computer" style="height: 13rem">
+            <div class="card-body">
+              <h2 class="card-title">HTML</h2>
+              <ul class="card-text">
                 <li>Creating and Organizing HTML appropriately</li>
                 <li>Using block elements and adding inline style</li>
               </ul>
-          </div>
+            </div> 
         </div>
-        <div class="card">
-          <div class="card-body">
-            <h2 class="card-title">CSS</h2>
-             <ul class="card-text">
-              <img src="img/css.jpg alt="data">
-                <li>typographic styles</li>
-                <li>box model including margin borders/pading </li>
-                <li>floats created</li>
+      </div>
+      <div class="col-4 mb 4 pd 4">
+        <div class="card" style="width: 18rem;">
+          <img src="img/css.jpg" class="card-img-top p-1" alt="computer" style="height: 13rem">
+            <div class="card-body">
+              <h2 class="card-title">CSS</h2>
+              <ul class="card-text">
+                <li>Creating and Organizing HTML appropriately</li>
+                </li>Using block elements and adding inline style</li>
               </ul>
-            </div>
-          </div>
+            </div> 
+        </div>  
+      </div> 
+      <div class="col-4 mb 4 pd 4">
+        <div class="card" style="width: 18rem;">
+          <img src="img/growth.jpg" class="card-img-top p-1" alt="computer" style="height: 13rem">
+            <div class="card-body">
+              <h2 class="card-title">Bootstrap</h2>
+              <ul class="card-text">
+                <li>Creating and Organizing HTML appropriately</li>
+                </li>Using block elements and adding inline style</li>
+              </ul>
+            </div> 
         </div>
-        <div class="card">
-          <div class="card-body">
-            <h2 class="card-title">Bootstrap</h2>
-            <ul class="card-text">
-              <img src="img/Github.png" alt="will change pic">
-                <li>Adding style to the website</li>
-                <li>Creating a website</li>
-            </ul>
-          </div>
-        </div>
+      </div> 
     </div>
   </div>
-
-  <hr>
-  <div class="container">
-    <div class="jumbotron">
-      <h1>Skills</h1>
-      <ul>
-        <li>HTML</li>
-        <li>CSS </li>
-        <li>Bootstrap</li>
-      </ul>
-    </div>
-  </div>
+  
   <hr>
 
   <div class="container">
+    <h1>Skills</h1>
+    <ul>
+      <li>HTML</li>
+      <li>CSS </li>
+      <li>Bootstrap</li>
+     </ul>
+  </div>
+  <hr>
+<div>
+<h1>Testimonals</h1>
+<blockquote class="blockquote">
+  <p>Never worked with <em>anyone</em> like her!</p>
+  <footer class="blockquote-footer">Boss at Amazon</footer>
+</div>
     <div class="jumbotron">
       <h1>Contact Me</h1>
-        <p>
           <ul>
             <li>Wajma Niazi</li>
             <li>+1 999-9999</li>
-            <li>w1niazi@hotmail.com</li>
+            <li><a href="mailto: w1niazi@hotmail.com">w1niazi@hotmail.com</a></li>
+            <p> Or send me a message:</p>
           </ul>
-        </p>
     </div>
-  </div>
-    <p>Or send me a message below:</p>
-    <p>
+
+    <section class ="form">
         <form action="#" method="post"></form>
         <div>
           <label for="Name"> Name</label>
-          <input type="text" id=name="user name">
+          <input type="text" id name="user name">
         </div>
         <div>
           <label for="Email">Email</label>
-          <input type="text" id=email="Email">
+          <input type="text" id email="Email">
         </div>
         <div>
           <label>Message</label>
           <textarea name="Message"></textarea>
         </div>
-    </p>
+        <div>
+          <button>Submit</button>
+        </div>
+    </section>
 </body>
 </html>
