@@ -67,7 +67,7 @@ body {
 }
 #medicine img {
   display: flex; 
-  width: 120px;
+  width: 150px;
   height: 150px;
   float: left;
 
@@ -95,7 +95,11 @@ body {
 }
 
 .card {
+
   border-bottom:8px solid rgb(75, 184, 178);
+  border-left: 2px solid rgb(75, 184, 178);
+  border-top: 2px solid rgb(75, 184, 178) ;
+  border-right:2px solid rgb(75, 184, 178);
   margin-right: 10 px;
 }
 .card-text {
