@@ -1,8 +1,8 @@
 # Portfolio
 
-#### By Wajma Niazi**_
+#### By Wajma Niazi**
 
-#### Creating basic portfolio using HTML and CSS. _
+#### Creating basic portfolio using HTML and CSS. 
 
 ## Technologies Used
 
@@ -13,19 +13,19 @@
 
 ## Description
 
-__Creating portfolio to display work and projects done in Epicodus. 
+Creating portfolio to display work and projects done in Epicodus. 
 
 ## Setup/Installation Requirements
 
-* _Clone Repository to your desktop  
-* _Installation of bootstrap: https://getbootstrap.com/docs/4.5/getting-started/download/
-* _Open index.html file 
+* Clone Repository to your desktop  
+* Installation of bootstrap: https://getbootstrap.com/docs/4.5/getting-started/download/
+* Open index.html file 
 
 ## Known Bugs
-* _Any known issues_
+* Any known issues
 
 ## License
 
-_MIT_
+MIT
 
-Copyright (c) 2021 Wajma Niazi_
+Copyright (c) 2021 Wajma Niazi
