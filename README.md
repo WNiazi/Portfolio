@@ -13,7 +13,7 @@
 
 ## Description
 
-__Creating portfolio to display work and projects done in Epicodus. 
+__Creating portfolio to display work and projects done in Epicodus. If you would like to go to the live site please go to https://wniazi.github.io/Portfolio/. 
 
 ## Setup/Installation Requirements
 
