@@ -1,6 +1,6 @@
 # Portfolio
 
-#### By Wajma Niazi**_
+#### By Wajma Niazi
 
 #### Creating basic portfolio using HTML and CSS. _
 
@@ -28,4 +28,4 @@ __Creating portfolio to display work and projects done in Epicodus.
 
 _MIT_
 
-Copyright (c) 2021 Wajma Niazi_
+Copyright (c) 2021 Wajma Niazi
